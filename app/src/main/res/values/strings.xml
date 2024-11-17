@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">tirocinio</string>
+    <string name="updateFrequencyHint">Enter update frequency in milliseconds (default: 10000)</string>
+    <string name="metrics">Metrics</string>
+    <string name="idHint">ID</string>
+    <string name="batteryHint">Battery</string>
+    <string name="cpuHint">CPU</string>
+    <string name="memoryHint">Memory</string>
+    <string name="netBandwidthHint">Network Bandwidth</string>
+    <string name="netSignalStrengthHint">Network Signal Strength</string>
+    <string name="netCapabilitiesHint">Network Capabilities</string>
+
+    <string name="sendMetricsToServer">Send metrics to the server</string>
+    <string name="serverUrlHint">Enter server url</string>
+    <string name="sendButtonHint">Send</string>
+    <string name="serverResponseHint">Server response</string>
+</resources>

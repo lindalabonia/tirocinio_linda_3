@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:id="@+id/updateFrequency"
+        android:hint="@string/updateFrequencyHint" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:text="@string/metrics"
+        android:textAlignment="center"
+        />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/id"
+       android:hint="@string/idHint"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/battery"
+        android:hint="@string/batteryHint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cpu"
+        android:hint="@string/cpuHint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/memory"
+        android:hint="@string/memoryHint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/netBandwidth"
+        android:hint="@string/netBandwidthHint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/netSignalStrength"
+        android:hint="@string/netSignalStrengthHint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/netCapabilities"
+        android:hint="@string/netCapabilitiesHint" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:text="@string/sendMetricsToServer"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:id="@+id/serverUrl"
+        android:hint="@string/serverUrlHint"
+        android:inputType="textUri" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightRed"
+        android:id="@+id/sendButton"
+        android:hint="@string/sendButtonHint"
+        android:onClick="sendMetrics"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/serverResponse"
+        android:hint="@string/serverResponseHint" />
+
+
+</LinearLayout>
